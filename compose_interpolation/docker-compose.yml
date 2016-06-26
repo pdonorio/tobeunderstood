@@ -1,0 +1,7 @@
+
+service:
+
+  image: alpine
+  command: sleep 1234567890
+  environment:
+    mylabel: "${JUSTATEST}"
